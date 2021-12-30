@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Page from "./components/structure/Page";
+import Page from "../components/structure/Page";
 
 const Container = styled.div`
   width: 100%;

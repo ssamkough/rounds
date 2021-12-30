@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
 import React, { useCallback, useState } from "react";
 import styled from "styled-components";
-import Page from "./components/structure/Page";
-import Button from "./components/ui/Button";
-import Input from "./components/ui/Input";
-import Toast from "./components/ui/Toast";
+import Page from "../components/structure/Page";
+import Button from "../components/ui/Button";
+import Input from "../components/ui/Input";
+import Toast from "../components/ui/Toast";
 
 const Container = styled.div`
   width: 100%;

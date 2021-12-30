@@ -1,18 +1,18 @@
 import { useRouter } from "next/router";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import styled from "styled-components";
-import Canvas from "./components/game/Canvas";
-import ChoiceButton from "./components/game/ChoiceButton";
-import Textarea from "./components/game/Textarea";
-import Page from "./components/structure/Page";
-import Button from "./components/ui/Button";
-import Toast from "./components/ui/Toast";
+import Canvas from "../components/game/Canvas";
+import ChoiceButton from "../components/game/ChoiceButton";
+import Textarea from "../components/game/Textarea";
+import Page from "../components/structure/Page";
+import Button from "../components/ui/Button";
+import Toast from "../components/ui/Toast";
 import {
   MultipleChoice,
   Prompt,
   prompts,
   promptTypes,
-} from "./constants/prompts";
+} from "../constants/prompts";
 
 const Container = styled.div`
   width: 100%;
