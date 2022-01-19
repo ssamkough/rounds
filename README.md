@@ -1,4 +1,4 @@
-# rounds 🖌️ 👪
+# rounds 🖌️ 👪 (incomplete)
 
 game to test how well you know your friends
 
